@@ -41,7 +41,8 @@ main .left,
 main .right {
     height: 100%;
     flex-basis: 50%;
-    border-radius: 0.7rem;
+        border-radius: 1rem;
+
     display: flex;
     flex-direction: column;
 }
@@ -68,7 +69,6 @@ main .left {
     background-color: #13121200;
 }
 main .left .review-btn {
-    position: absolute;
     bottom: 2rem;
     right: 2rem;
     background-color: rgb(137, 137, 144);
@@ -87,6 +87,7 @@ main .right {
     overflow-y: auto;
     scroll-behavior: smooth;
     background-color: #343434;
+    border-radius: 1rem;
 }
 .right h2 {
     margin-bottom: 0.7rem;

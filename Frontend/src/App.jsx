@@ -52,21 +52,23 @@ function App() {
               style={{
                 fontFamily: '"Fira code", "Fira Mono", monospace',
                 fontSize: 16,
-                minHeight: "100%",
+                // minHeight: "100%",
                 border: "1px solid #ddd",
                 borderRadius: '0.7rem',
                 height: "100%",
+                // minHeight:"100%",
                 width: "100%",
                 boxSizing: "border-box",
               }}
             />
           </div>
-          <div 
-            onClick={reviewCode}
-            className="review-btn"
-          >
-            Review Code
-          </div>
+                <div
+        onClick={reviewCode}
+        className="review-btn mt-2 block p-2 bg-green-500 text-white text-center rounded cursor-pointer"
+      >
+        Review Code
+      </div>
+
         </div>
 
         <div className="right">
